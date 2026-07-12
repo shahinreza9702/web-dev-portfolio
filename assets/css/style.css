@@ -7,12 +7,12 @@
 
   --text-color: #757575;
   --dark-text: #181818;
-  --bg-color: #fff;
+  --bg-color: #fff8f3;
   --white: #fff;
 
   --container-width: 1200px;
 
-  --radius: 8px;
+  --radius-4: 4px;
   --transition: 300ms ease;
 }
 /* =========================
@@ -50,11 +50,17 @@
 }
 .site-header {
   width: 100%;
-  background-color: #fff;
-  border-bottom: 1px solid #757575;
+  background-color: var(--bg-color);
+  padding: 20px 0;
+  /* border-bottom: 1px solid #757575; */
   position: sticky;
   top: 0;
   z-index: 100;
+}
+.site-header .container {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
 }
 .site-main {
   display: flex;
@@ -74,10 +80,27 @@
 }
 .btn-primary {
   background-color: var(--primary-color);
+  color: var(--white);
+  border-radius: var(--radius-4);
+  cursor: pointer;
 }
 .btn-secondary {
   border: 1px solid #fd6e0a;
   background-color: transparent;
+  border-radius: var(--radius-4);
+  cursor: pointer;
+}
+.btn-primary:hover {
+  background-color: transparent;
+  border: 1px solid #fd6e0a;
+  border-radius: var(--radius-4);
+  color: var(--dark-text);
+}
+.btn-secondary:hover {
+  background-color: var(--primary-color);
+  color: var(--white);
+  border-radius: var(--radius-4);
+  cursor: pointer;
 }
 .section-title {
   font-size: 3rem;
@@ -88,7 +111,19 @@
 /* =========================
    Pages
 ========================= */
-
+.navigation {
+  gap: 10px;
+}
+.navigation ul {
+  list-style: none;
+  display: flex;
+  gap: 10px;
+}
+.navigation ul li {
+}
+.hero {
+  background-color: var(--bg-color);
+}
 /* =========================
    Skills
 ========================= */
