@@ -138,6 +138,9 @@ body{
 .hero {
   background-color: var(--bg-color);
 }
+.section.hero{
+  padding-bottom: 0;
+}
 .hero .container {
   display: flex;
   justify-content: space-between;
