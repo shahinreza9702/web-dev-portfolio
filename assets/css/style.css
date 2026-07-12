@@ -137,6 +137,10 @@ body {
 }
 .navigation ul li a {
   text-decoration: none;
+  color: var(--text-color);
+}
+.navigation ul li a:hover{
+  color: var(--primary-color);
 }
 .hero {
   background-color: var(--bg-color);
