@@ -23,7 +23,7 @@
   padding: 0;
   box-sizing: border-box;
 }
-body{
+body {
   font-family: "open sans";
 }
 /* =========================
@@ -85,12 +85,15 @@ body{
   background-color: var(--primary-color);
   color: var(--white);
   border-radius: var(--radius-4);
+  transition: all 0.3s ease;
+  border: 1px solid var(--primary-color);
   cursor: pointer;
 }
 .btn-secondary {
   border: 1px solid #fd6e0a;
   background-color: transparent;
   border-radius: var(--radius-4);
+  transition: all 0.3s ease;
   cursor: pointer;
 }
 .btn-primary:hover {
@@ -100,14 +103,14 @@ body{
   color: var(--dark-text);
 }
 .btn-icon {
-    width: 20px;
-    height: 20px;
-    fill: #fff;
-    transition: fill 0.3s ease;
+  width: 20px;
+  height: 20px;
+  fill: #fff;
+  transition: fill 0.3s ease;
 }
 
 .btn-primary:hover .btn-icon {
-    fill: #fd6e0a;
+  fill: #fd6e0a;
 }
 .btn-secondary:hover {
   background-color: var(--primary-color);
@@ -138,7 +141,7 @@ body{
 .hero {
   background-color: var(--bg-color);
 }
-.section.hero{
+.section.hero {
   padding-bottom: 0;
 }
 .hero .container {
@@ -154,7 +157,7 @@ body{
   align-items: start;
   gap: 20px;
 }
-.hero-content p{
+.hero-content p {
   font-size: 18px;
 }
 .hero-buttons {
