@@ -1,0 +1,110 @@
+/* =========================
+   Variables
+========================= */
+:root {
+  --primary-color: #fd6e0a;
+  --secondary-color: #fff8f3;
+
+  --text-color: #757575;
+  --dark-text: #181818;
+  --bg-color: #fff;
+  --white: #fff;
+
+  --container-width: 1200px;
+
+  --radius: 8px;
+  --transition: 300ms ease;
+}
+/* =========================
+   Reset
+========================= */
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+/* =========================
+   Global Styles
+========================= */
+.flex {
+  display: flex;
+}
+.flex-center {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+.grid {
+  display: grid;
+}
+.section {
+  padding: 60px 0;
+}
+
+/* =========================
+   Layout
+========================= */
+.container {
+  max-width: var(--container-width, 90%);
+  margin: 0 auto;
+}
+.site-header {
+  width: 100%;
+  background-color: #fff;
+  border-bottom: 1px solid #757575;
+  position: sticky;
+  top: 0;
+  z-index: 100;
+}
+.site-main {
+  display: flex;
+  flex-direction: column;
+}
+.site-footer {
+  background-color: var(--bg-color);
+  color: var(--dark-text);
+  padding: 50px 0;
+}
+/* =========================
+   Components
+========================= */
+.btn {
+  padding: 10px 20px;
+  border: none;
+}
+.btn-primary {
+  background-color: var(--primary-color);
+}
+.btn-secondary {
+  border: 1px solid #fd6e0a;
+  background-color: transparent;
+}
+.section-title {
+  font-size: 3rem;
+}
+.section-subtitle {
+  font-size: 2rem;
+}
+/* =========================
+   Pages
+========================= */
+
+/* =========================
+   Skills
+========================= */
+
+/* =========================
+   Portfolio
+========================= */
+
+/* =========================
+   Contact
+========================= */
+
+/* =========================
+   Footer
+========================= */
+
+/* =========================
+   Responsive
+========================= */
