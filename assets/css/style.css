@@ -23,6 +23,9 @@
   padding: 0;
   box-sizing: border-box;
 }
+body{
+  font-family: "open sans";
+}
 /* =========================
    Global Styles
 ========================= */
@@ -96,6 +99,16 @@
   border-radius: var(--radius-4);
   color: var(--dark-text);
 }
+.btn-icon {
+    width: 20px;
+    height: 20px;
+    fill: #fff;
+    transition: fill 0.3s ease;
+}
+
+.btn-primary:hover .btn-icon {
+    fill: #fd6e0a;
+}
 .btn-secondary:hover {
   background-color: var(--primary-color);
   color: var(--white);
@@ -119,11 +132,55 @@
   display: flex;
   gap: 10px;
 }
-.navigation ul li {
+.navigation ul li a {
+  text-decoration: none;
 }
 .hero {
   background-color: var(--bg-color);
 }
+.hero .container {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  gap: 20px;
+}
+.hero-content {
+  flex: 1;
+  display: flex;
+  flex-direction: column;
+  align-items: start;
+  gap: 20px;
+}
+.hero-content p{
+  font-size: 18px;
+}
+.hero-buttons {
+  gap: 20px;
+}
+.hero-buttons button {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  gap: 10px;
+}
+.hero-image {
+  flex: 1;
+  background-image: url("../images/header_bg.png");
+  background-repeat: no-repeat;
+  background-position: bottom right;
+  background-size: contain;
+
+  display: flex;
+  align-items: flex-end;
+  justify-content: end;
+}
+
+.hero-image img {
+  width: 70%;
+  position: relative;
+  right: 0;
+}
+
 /* =========================
    Skills
 ========================= */
