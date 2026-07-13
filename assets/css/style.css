@@ -254,13 +254,30 @@ font-size: 1.3rem;
   gap: 20px;
   
 }
+
+/* =========================
+   Resume
+========================= */
+.resume .container{
+  display: flex;
+  flex-direction: column;
+  gap: 20px;
+}
+.resume .container >h2{
+  text-align: center;
+}
+.resume-content{
+  justify-content: space-between;
+  gap: 20px;
+}
+.my-education{
+  
+}
+.my-experience{}
 /* =========================
    Portfolio
 ========================= */
 
-/* =========================
-   Contact
-========================= */
 
 /* =========================
    Footer
