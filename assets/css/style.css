@@ -31,6 +31,10 @@ body {
 ========================= */
 .flex {
   display: flex;
+  justify-content: space-between;
+}
+.flex-item{
+  flex: 1;
 }
 .flex-center {
   display: flex;
@@ -267,13 +271,28 @@ font-size: 1.3rem;
   text-align: center;
 }
 .resume-content{
+  display: flex;
   justify-content: space-between;
   gap: 20px;
 }
-.my-education{
-  
+.resume-content .flex-item>h2{
+  color: #474747;
+  font-size: 2rem;
 }
-.my-experience{}
+.resume-card{
+  padding: 20px 0;
+}
+.resume-card h2{
+  color: #474747;
+  padding: 10px 0;
+}
+.resume-card h3{
+  color: #757575;
+  padding: 10px 0;
+}
+.resume-card p{
+  color: var(--text-color);
+}
 /* =========================
    Portfolio
 ========================= */
