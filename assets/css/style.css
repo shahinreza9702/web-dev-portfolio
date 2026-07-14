@@ -324,7 +324,24 @@ font-size: 1.3rem;
 /* =========================
    Footer
 ========================= */
-
+.flex-item .section-title{
+  padding: 20px 0;
+}
+.form-group{
+  width: 100%;
+  margin-bottom: 10px;
+}
+.form-input{
+  width: 100%;
+  padding: 20px 30px;
+  outline: 1px solid #ddd;
+  border: none;
+  font-weight: 700;
+  color: #474747;
+}
+.form-input:focus{
+  outline: 1px solid #fd6e0a;
+}
 /* =========================
    Responsive
 ========================= */
