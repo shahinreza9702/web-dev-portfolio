@@ -327,9 +327,17 @@ font-size: 1.3rem;
 .flex-item .section-title{
   padding: 20px 0;
 }
+.social{
+  padding: 10px 0;
+}
 .form-group{
   width: 100%;
   margin-bottom: 10px;
+}
+.form-group input[type='submit']{
+  padding: 20px 40px;
+  font-size: 1rem;
+  font-weight: 700;
 }
 .form-input{
   width: 100%;
@@ -342,6 +350,7 @@ font-size: 1.3rem;
 .form-input:focus{
   outline: 1px solid #fd6e0a;
 }
+
 /* =========================
    Responsive
 ========================= */
